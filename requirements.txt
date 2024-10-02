@@ -3,4 +3,5 @@ langchain-community
 pypdf
 langchain_google_genai
 faiss-cpu
+streamlit
 # -e .
