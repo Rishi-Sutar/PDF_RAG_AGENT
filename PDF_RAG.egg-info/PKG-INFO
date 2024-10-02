@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PDF_RAG
+Version: 0.0.0
+Author: Richie
+Author-email: rishisutar183@gmail.com
+Requires-Dist: langchain
+Requires-Dist: langchain_community
+Requires-Dist: langchain_chroma
