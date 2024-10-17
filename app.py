@@ -14,13 +14,14 @@ import os
 import sys
 import tempfile
 from src.exception import CustomException
-from src.logger import logging
+# from src.logger import logging
+import logging
 
 from src.htmlTemplates import css, bot_template, user_template
 
 # Load environment variables
 load_dotenv()
-gemini_api_key = os.environ.get('google_api_key')
+gemini_api_key = st.secrets["google_api_key"]
 
 def pdf_loader(uploaded_file):
     try:

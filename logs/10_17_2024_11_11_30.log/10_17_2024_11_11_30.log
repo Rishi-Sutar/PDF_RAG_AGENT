@@ -3,3 +3,6 @@
 [ 2024-10-17 11:14:57,350 ] 86 faiss.loader - INFO - Loading faiss with AVX2 support.
 [ 2024-10-17 11:14:57,482 ] 88 faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
 [ 2024-10-17 11:14:57,567 ] 51 root - INFO - Vectorstore created
+[ 2024-10-17 11:46:05,899 ] 34 root - INFO - PDF Loaded
+[ 2024-10-17 11:46:05,934 ] 46 root - INFO - PDF splited into chunks
+[ 2024-10-17 11:46:41,600 ] 52 root - INFO - Vectorstore created
