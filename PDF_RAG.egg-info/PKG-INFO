@@ -4,5 +4,8 @@ Version: 0.0.0
 Author: Richie
 Author-email: rishisutar183@gmail.com
 Requires-Dist: langchain
-Requires-Dist: langchain_community
-Requires-Dist: langchain_chroma
+Requires-Dist: langchain-community
+Requires-Dist: pypdf
+Requires-Dist: langchain_google_genai
+Requires-Dist: faiss-cpu
+Requires-Dist: streamlit
