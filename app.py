@@ -30,7 +30,7 @@ def pdf_loader(uploaded_file):
 
         loader = PyPDFLoader(temp_file_path)
         docs = loader.load()
-        logging.INFO("PDF Loaded")
+        logging.info("PDF Loaded")
         return docs
     except Exception as e:
         raise CustomException(e, sys)
@@ -42,13 +42,13 @@ def get_pdf_chunk(docs):
     )
     
     text_chunks = text_splitter.split_documents(docs)
-    logging.INFO("PDF splited into chunks")
+    logging.info("PDF splited into chunks")
     return text_chunks
 
 def get_vectorstore(text_chunks):
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=gemini_api_key)
     vector_store = FAISS.from_documents(text_chunks, embeddings)
-    logging.INFO("Vectorstore created")
+    logging.info("Vectorstore created")
     return vector_store
 
 def get_conversation_chain(vectorstore):
