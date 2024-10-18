@@ -2,7 +2,7 @@
 # Chat with PDF
 
 "Chat with PDF" is a web application that allows users to interactively query and chat about the content of PDF documents. Utilizing advanced natural language processing (NLP) techniques and generative AI, this application makes it easy to extract insights from documents in a conversational manner.
-![App Screenshot](https://github.com/Rishi-Sutar/PDF_RAG_AGENT/blob/master/pdfrag.png)
+![App Screenshot](https://github.com/Rishi-Sutar/PDF_RAG_AGENT/blob/main/pdfrag.png)
 
 
 ## Features
